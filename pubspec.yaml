@@ -1,0 +1,45 @@
+name: alerta
+description: "ALERTA - Disaster Emergency & DRRMO Response Mobile App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Cloud Services
+  firebase_core: ^3.8.1
+  cloud_firestore: ^5.5.1
+  firebase_messaging: ^15.1.6
+  firebase_auth: ^5.3.4
+  firebase_storage: ^12.3.6
+
+  # Google Maps & Geolocation
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  geocoding: ^4.0.0
+
+  # UI, Icons, State & Utilities
+  provider: ^6.1.2
+  flutter_local_notifications: ^18.0.1
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+  audioplayers: ^6.1.0
+  font_awesome_flutter: ^10.8.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
